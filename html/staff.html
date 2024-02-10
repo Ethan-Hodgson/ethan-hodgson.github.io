@@ -49,7 +49,7 @@
 
 
     <!-- Main content -->
-    <div class="content w3-container w3-padding-64">
+    <div class="content">
 
         <!--Heading-->
         <header class="w3-container w3-pale-blue w3-padding-64" id="contact">
@@ -59,6 +59,7 @@
         </header>
 
         <!-- Login Form -->
+    <!--
         <div class="login-form">
             <h2>Login</h2>
             <form method="post">
@@ -69,12 +70,10 @@
                 <input type="submit" value="Login">
             </form>
         </div>
+    -->
 
         <!-- Private content for staff -->
-        <div id="privateinfo">
-            <p>Welcome Staff</p>
         
-        </div>
 
     </div>
 
@@ -88,18 +87,6 @@
 
     </div>
 
-    <script>
-        function showPrivateInfo() {
-            document.getElementById("privateinfo").style.display = "block";
-        }
-    
-        // Check if user is authenticated 
-        var isAuthenticated = false; // Change to true if authentication is successful
-    
-        if (isAuthenticated) {
-            showPrivateInfo();
-        }
-    </script>
 
     <script>
         function myFunction() {

@@ -1,7 +1,0 @@
-
-<Files "staff.html">
-AuthType Basic
-AuthName "Restricted Area"
-AuthUserFile /Users/ethan/OneDrive/Desktop/Uni/Semester 2/BIT607 Web Development/Assessment 2/BIT607 Assessment 2/www/.htacces/.htpasswd
-Require valid-user
-</Files>
