@@ -1,6 +1,7 @@
 <Files "staff.html">
 AuthType Basic
 AuthName "Restricted Area"
-AuthUserFile /Users/ethan/OneDrive/Desktop/Uni/Semester 2/BIT607 Web Development/haukairestaurant/passwordprotection/.htpasswd
+AuthUserFile ../passwordprotection/.htpasswd
 Require valid-user
 </Files>
+
