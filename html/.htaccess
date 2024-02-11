@@ -1,7 +1,8 @@
-<Files "staff.html">
+
+<!--<Files "staff.html">-->
 AuthType Basic
 AuthName "Restricted Area"
 AuthUserFile ../passwordprotection/.htpasswd
 Require valid-user
-</Files>
+<!--</Files>-->
 
